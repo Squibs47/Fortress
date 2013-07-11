@@ -7,14 +7,27 @@ Baisc game idea:
   The core acts as a low-level crafting station.
   If the core dies, your progress is reset.
   You may place down other objects within X studs of the core (range may be upgraded)
-  Current possible buildings:
+  Current possible buildings [SCI-FI]:
     Core
-    Power Generator [Type A, Type B, Type, C]
+    Power Generator [Type A, Type B, Type, C] (Generates RESOURCE_B)
     Auto-Turret [Gun, Laser, Plasma]
-    Shield Generator [Mk I, Mk II, Mk III]
+    Shield Generator [Mk I, Mk II, Mk III] (Protects the core)
     Crafting Station [Mk II, Mk III]
     Building Materials [Basic, Hardened, Reinforced]
       Wall
       Window
       Floor
       Stairs
+      Door
+  Current possible buildings [FANTASY]:
+    Banner (The core)
+    Trading Depot [Type A, Type B, Type, C] (Generates RESOURCE_A)
+    Tower [Rocks, Longbow, Crossbow]
+    Flag [Wood, Iron, Gold]
+    Forge [Mk II, Mk III]
+    Building Materials [Basic, Hardened, Reinforced]
+      Wall
+      Window
+      Floor
+      Stairs
+      Door
